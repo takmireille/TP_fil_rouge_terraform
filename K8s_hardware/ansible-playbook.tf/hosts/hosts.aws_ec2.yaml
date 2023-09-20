@@ -1,0 +1,6 @@
+plugin: amazon.aws.aws_ec2
+regions:
+  - eu-west-3
+
+access_key: "{{ lookup('env', 'AWS_ACCESS_KEY')}}"
+secret_key: "{{ lookup('env', 'AWS_ACCESS_SECRET_KEY')}}"
