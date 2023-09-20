@@ -24,7 +24,7 @@ Dans le fichier de configutation terraform (terraform_config_aws.tf), la partie 
 ---------> partie creation des instances ec2
 - creation d'une clé ssh en local
 - creation d'un groupe de securité
-- creation des instances ec2 qui sont bien sur reliée au subnet ----> vpc-----> internet gateway
+- creation des instances ec2 qui sont bien sur reliées au subnet ----> vpc-----> internet gateway
 
 2-3 quelques ressources utlisées : 
 - https://adyraj.medium.com/kubernetes-cluster-on-multi-cloud-using-terraform-and-ansible-9cfa51992d6d
